@@ -1,0 +1,13 @@
+GET http://localhost:3000/products
+###
+GET http://localhost:3000/products/new
+###
+GET http://localhost:3000/products/create
+Content-Type: Application/json
+
+{
+    "name":'ordenador',
+    "price": 120,
+    "stock": 10,
+    "avaiable": True
+}

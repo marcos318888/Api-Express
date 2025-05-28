@@ -1,21 +1,18 @@
 {
   "name": "api-express",
-  "version": "1.0.0",
-  "description": "",
-  "main": "01-http.js",
+  "version": "0.0.0",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "standard": "^17.1.2"
-  },
-  "eslintConfig": {
-    "extends": "standard"
+    "start": "node ./bin/www",
+    "dev": "nodemon ./bin/www"
   },
   "dependencies": {
-    "express": "5.1.0"
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "morgan": "~1.9.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
   }
 }
